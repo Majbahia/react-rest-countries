@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Country from '../Country/Country';
 
 const Countries = () => {
     const[counstries, setCountries]=useState([]);
@@ -18,13 +19,5 @@ const Countries = () => {
       </div>
     )
 };
-function Country(props){
-    return(
-      <div>
-        <h2>Name: {props.name}</h2>
-        <h4>Population: {props.population}</h4>
-      </div>
-    )
-  }
 
 export default Countries;
