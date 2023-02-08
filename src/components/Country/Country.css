@@ -1,0 +1,10 @@
+.contain{
+    background-color: azure;
+    border:5px solid rgb(230, 190, 190);
+    border-radius:20px;
+    padding:10px;
+    margin:10px;
+}
+.contain img{
+    width:150px;
+}
